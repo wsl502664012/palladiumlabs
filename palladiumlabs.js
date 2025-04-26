@@ -150,9 +150,9 @@ async function sendMultipleTransactions() {
         console.log("=========================================================");
         await callWithdrawToSP();
 
-        const minDelay = 24 * 3600 + 5; // Detik
-        const maxDelay = 24 * 3600 + 15; // Detik
-        await delay(minDelay, maxDelay);
+        const dayminDelay = 24 * 3600 + 5; // Detik
+        const daymaxDelay = 24 * 3600 + 15; // Detik
+        await delay(dayminDelay, daymaxDelay);
     }
 }
 
